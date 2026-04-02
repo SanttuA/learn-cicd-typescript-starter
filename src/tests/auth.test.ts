@@ -1,6 +1,8 @@
 import { describe, it, expect } from "vitest";
 import { getAPIKey } from "../api/auth.js";
 
+// tests for getAPIKey function in src/api/auth.ts
+
 describe("getAPIKey", () => {
   it("should return null when no authorization header is present", () => {
     const headers = {};
